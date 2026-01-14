@@ -134,3 +134,19 @@ a:active {
   background-color: #444444;
   font-style: italic;
 }
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: green;
+}
+
+footer p {
+  color: yellow;
+}

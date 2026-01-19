@@ -10,6 +10,11 @@ body {
   border-top: 10px solid #7e1db6;
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 /* h1,
 h2,
 h3,
@@ -192,6 +197,6 @@ footer p {
 }
 
 .post-img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }

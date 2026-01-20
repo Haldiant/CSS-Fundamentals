@@ -58,6 +58,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul,
@@ -69,6 +70,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 /* footer p {
@@ -107,10 +109,10 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 20px;
+  /* padding: 20px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 article {
@@ -199,4 +201,20 @@ footer p {
 .post-img {
   width: 100%;
   height: auto;
+  /* margin: 100px; */
+}
+
+nav a:link {
+  /* background-color: #444444;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }

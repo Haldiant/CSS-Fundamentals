@@ -8,11 +8,13 @@ body {
   font-family: sans-serif;
 
   border-top: 10px solid #7e1db6;
+  position: relative;
 }
 
 .container {
   width: 700px;
   margin: 0 auto;
+  /* position: relative; */
 }
 
 /* h1,
@@ -121,6 +123,7 @@ article {
 
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 
 aside {
@@ -217,4 +220,17 @@ nav a:link {
 
 nav a:link:last-child {
   margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  /* border: none; */
+
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
 }

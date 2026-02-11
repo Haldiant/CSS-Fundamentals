@@ -126,3 +126,53 @@ ol {
 li {
   margin-bottom: 10px;
 }
+
+h2 {
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 2px solid #444444;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.color-swatch.black {
+  background-color: black;
+}
+
+.color-swatch.blue {
+  background-color: blue;
+}
+
+.color-swatch.red {
+  background-color: red;
+}
+
+.color-swatch.yellow {
+  background-color: yellow;
+}
+
+.color-swatch.green {
+  background-color: green;
+}
+
+.color-swatch.brown {
+  background-color: brown;
+}

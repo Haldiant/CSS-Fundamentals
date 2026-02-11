@@ -18,6 +18,9 @@ body {
 
 .product {
   border: 5px solid #7e1db6;
+  width: 825px;
+  margin: 52px auto;
+  position: relative;
 }
 
 .product-title {
@@ -61,6 +64,8 @@ h3 {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover {
@@ -127,7 +132,7 @@ li {
   margin-bottom: 10px;
 }
 
-h2 {
+/* h2 {
   position: relative;
 }
 
@@ -142,14 +147,30 @@ h2::before {
   position: absolute;
   top: -20px;
   left: -30px;
+} */
+
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  letter-spacing: 2px;
+  /* width: 40px;
+  text-align: center; */
 }
 
 .color-swatch {
   width: 30px;
   height: 30px;
   display: inline-block;
-  border: 2px solid #444444;
-  margin-top: 30px;
+  /* border: 2px solid #444444; */
+  /* margin-top: 30px; */
   margin-right: 10px;
 }
 

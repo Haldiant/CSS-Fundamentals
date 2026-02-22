@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
   /* position: relative; */
 }
@@ -54,6 +55,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -103,6 +105,7 @@ li {
 
 .related-post {
   list-style: none;
+  margin-left: 0;
 }
 
 /* header {
@@ -111,7 +114,7 @@ li {
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
+  /* background-color: red; */
   /* padding: 20px; */
   padding: 20px 40px;
   margin-bottom: 60px;
@@ -125,16 +128,18 @@ article {
 .post-header {
   margin-bottom: 40px;
   /* position: relative; */
+  /* display: block; */
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #7e1db6;
   border-bottom: 5px solid #7e1db6;
+  padding: 50px 40px;
+  /* box-sizing: border-box; */
+  /* width: 500px; */
   /* padding-top: 50px;
   padding-bottom: 50px; */
-  padding: 50px 0;
-  width: 500px;
 }
 
 /* body {
@@ -283,4 +288,21 @@ nav {
   clear: both;
   content: "";
   display: block;
+}
+
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+
+aside {
+  /* background-color: red; */
+  width: 300px;
+  float: right;
+}
+
+footer {
+  /* background-color: blue; */
+  clear: both;
 }
